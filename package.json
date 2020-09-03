@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "initialize": "node helpers/initialize.js"
   },
   "keywords": [
     "sms"
@@ -12,9 +13,12 @@
   "author": "Melvin",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^4.1.0",
+    "cron": "^1.8.2",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mongoose": "^5.10.2"
+    "mongoose": "^5.10.2",
+    "node-fetch": "^2.6.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"

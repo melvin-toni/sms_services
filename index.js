@@ -45,8 +45,8 @@ app.get('/', function (req, res, next) {
     res.status(200).send('Authorization required');
 })
 
-// const cpuRoutes = require('./routes/cpu');
+const scheduleRoutes = require('./routes/schedule');
 
-// app.use('/api/cpu', cpuRoutes);
+app.use('/api/schedule', scheduleRoutes);
 
 app.listen(app.get('port'), () => console.log(`App is running on http://${app.get('host')}:${app.get('port')}`));
