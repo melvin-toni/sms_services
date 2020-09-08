@@ -9,16 +9,14 @@
         {"name":"Alric Stanbury","phone":"6055786930"},
         {"name":"Shem Jakubowsky","phone":"6059519463"},
         {"name":"Chuck Hebborne","phone":"6014894217"},
-        {"name":"Analise Dulinty","phone":"6297377449"},
-        {"name":"Dominique Sommerland","phone":"6272629716"},
-        {"name":"Cinnamon Newns","phone":"6267011247"},
-        {"name":"Andrej Engeham","phone":"6267645530"},
-        {"name":"Gwendolyn Mulhall","phone":"6297245272"},
-        {"name":"Rafaellle Moorton","phone":"6225741750"},
-        {"name":"Fanechka Peggs","phone":"6237661946"},
-        {"name":"Maude Isakovic","phone":"6255526981"},
-        {"name":"Roman Skokoe","phone":"6228643004"},
-        {"name":"Tandy Colvine","phone":"6278844704"},
-        {"name":"Kathy Gosling","phone":"6282729169"}
+        {"name":"Analise Dulinty","phone":"6297377449"}
+    ],
+    "campaign": [
+        {
+            "message": "Welcome to our app, hope you enjoy it !!!"
+        },
+        {
+            "message": "Our customer service would like to hear your thoughts !!!"
+        }
     ]
 }
