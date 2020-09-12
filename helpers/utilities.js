@@ -18,7 +18,11 @@ const statusCode = {
 
 exports.success = (req, res, result) => {
     console.log(`${chalk.green(statusCode.OK)} ${req.method} - ${req.originalUrl}`);
-    res.status(statusCode.OK).json({success: true, result: result, messages: [], pagination: {}});
+    res.status(statusCode.OK).json({
+        success: true, 
+        result: result,
+        pagination: {}
+    });
 }
 
 exports.failed = (req, res, err) => {

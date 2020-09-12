@@ -46,7 +46,9 @@ app.get('/', function (req, res, next) {
 })
 
 const scheduleRoutes = require('./routes/schedule');
+const campaignRoutes = require('./routes/campaign');
 
 app.use('/api/schedule', scheduleRoutes);
+app.use('/api/campaign', campaignRoutes);
 
 app.listen(app.get('port'), () => console.log(`App is running on http://${app.get('host')}:${app.get('port')}`));
